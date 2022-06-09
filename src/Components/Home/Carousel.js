@@ -39,11 +39,9 @@ const Carousel = () => {
                         <a href="#slide1" class="btn btn-circle">❯</a>
                     </div>
                 </div>
-                <div className='fixed inset-1/3 z-10 w-1/3'>
+                <div className='absolute inset-1/3 z-10 w-1/3'>
                     <img className='hidden md:flex' src={logoone} alt="" />
-                    {/* <a className='btn' href={myPDF} download="My_File.pdf"> Download Here </a> */}
                     <Link className='btn btn-ghost text-white border border-white' to={myPDF} target="_blank" download>RESUME</Link>
-                    {/* <button>RESUME</button> */}
                 </div>
             </div>
 
