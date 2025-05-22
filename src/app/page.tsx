@@ -4,9 +4,11 @@ import Profile from "@/components/Profile";
 
 export default function HomePage() {
   return (
-    <div className="flex">
-      <Sidebar />
-      <div className="flex-1 bg-gray-50 min-h-screen">
+    <div className="grid grid-cols-12 gap-2">
+      <div className="col-span-3">
+        <Sidebar />
+      </div>
+      <div className="col-span-9 min-h-screen">
         <Profile />
       </div>
     </div>
